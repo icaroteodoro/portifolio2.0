@@ -10,7 +10,7 @@ export default function Home() {
     <Layout>
       <Resumo/>
       <SobreMim/>
-      {/* <MeusProjetos/> */}
+      <MeusProjetos/>
     </Layout>
   )
 }

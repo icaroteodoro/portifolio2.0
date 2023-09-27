@@ -3,9 +3,11 @@ import Link from "next/link";
 export default function Footer(){
     const copyEmail = () => {
         navigator.clipboard.writeText("icaro.teodoro84@icloud.com");
+        alert("O email foi copiado para a sua área de transferencia!");
     }
     const copyNumber = () => {
         navigator.clipboard.writeText("+5582998389953");
+        alert("O número foi copiado para a sua área de transferencia!");
     }
     return(
         <footer id="rodape" className="w-full h-screen bg-blue-950 flex flex-col px-5 md:px-40 font-open">
