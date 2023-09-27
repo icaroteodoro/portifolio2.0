@@ -3,7 +3,7 @@ import { User, LayoutGrid, Code2, MessageSquare } from "lucide-react";
 export default function Resumo() {
   return (
     <section className=" flex flex-col lg:flex-row h-screen">
-      <div className="w-12/12 lg:w-5/12 h-1/2 lg:h-screen flex justify-end bg-blue-100">
+      <div className="w-12/12 lg:w-5/12 h-1/2 lg:h-screen flex justify-center lg:justify-end bg-blue-100">
         <div className="my-auto w-12/12 text-black">
           <div className="mb-5">
             <span className="font-regular font-raleway text-2xl md:text-4xl text-blue-500">

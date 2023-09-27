@@ -8,7 +8,7 @@ export default function MeusProjetos() {
 
 
   return (
-    <section id="meus-projetos" className="h-auto w-full bg-blue-100 p-5 md:p-40 flex flex-col items-center">
+    <section id="meus-projetos" className="h-auto w-full bg-blue-100 px-5 py-20 md:p-40 flex flex-col items-center">
       <div className="my-auto w-full">
         <div className="self-start">
           <h2 className="text-4xl md:text-6xl font-raleway font-bold mb-14 text-blue-500">
@@ -37,7 +37,7 @@ export default function MeusProjetos() {
         </div>
         <div className=" flex justify-center">
           <Link
-            className="bg-white text-blue-500 font-raleway px-40 py-4 text-3xl rounded hover:bg-blue-950 hover:text-white transition-colors duration-700"
+            className="bg-white text-blue-500 font-raleway px-24 lg:px-40 py-4 text-3xl rounded hover:bg-blue-950 hover:text-white transition-colors duration-700"
             href="/"
           >
             VER TODOS
