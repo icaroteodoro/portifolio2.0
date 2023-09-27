@@ -38,7 +38,7 @@ export default function MeusProjetos() {
         <div className=" flex justify-center">
           <Link
             className="bg-white text-blue-500 font-raleway px-24 lg:px-40 py-4 text-3xl rounded hover:bg-blue-950 hover:text-white transition-colors duration-700"
-            href="/"
+            href="https://github.com/icaroteodoro?tab=repositories"
           >
             VER TODOS
           </Link>
